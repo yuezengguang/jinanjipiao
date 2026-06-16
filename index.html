@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>济南低价机票</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>&#9992; 济南低价机票</h1>
+      <div class="data-info">
+        <span>数据日期：<strong id="dataDate">--</strong></span>
+        <span class="sep">|</span>
+        <span>更新于：<strong id="updateTime">--</strong></span>
+        <button class="refresh-btn" id="refreshBtn" title="刷新数据">&#x21bb;</button>
+      </div>
+    </header>
+
+    <nav class="tabs"><button class="tab active" data-tab="domestic">
+        国内航班 <span class="count" id="domesticCount">0</span>
+      </button>
+      <button class="tab" data-tab="international">
+        国际/港澳台航班 <span class="count" id="internationalCount">0</span>
+      </button>
+    </nav>
+
+    <div class="date-filter">
+      <label class="date-label">出发日期：</label>
+      <button class="date-btn active" id="dateAllBtn">全部日期</button>
+      <div class="date-list" id="dateList"></div>
+    </div>
+
+    <div class="summary-bar" id="summaryBar">
+      共 <strong id="totalCount">0</strong> 个航班低于 &yen;500，最低 <strong id="minPrice">--</strong>
+    </div>
+
+    <main id="flightList" class="flight-grid">
+      <div class="loading">加载中...</div>
+    </main>
+
+    <footer>
+      <span>数据来源：去哪儿网 &middot; 仅展示 &le; &yen;500 航班</span>
+      <span class="sep">|</span>
+      <span>点击航班查看返程 &middot; 运行 <code>python scraper.py</code> 更新数据</span>
+    </footer>
+  </div>
+
+  <!-- 内置数据（双击打开时使用，无需服务器） -->
+  <script id="initialData" type="application/json">
+  {"date":"2026-06-16","updatedAt":"2026-06-16 16:30","domestic":[{"destination":"沈阳","airline":"瑞丽航空","flightNo":"DR6576","date":"2026-06-20","price":200,"returns":[{"airline":"瑞丽航空","flightNo":"DR6577","date":"2026-06-21","price":230}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"武汉","airline":"山东航空","flightNo":"SC8871","date":"2026-06-20","price":230,"returns":[{"airline":"山东航空","flightNo":"SC8872","date":"2026-06-21","price":260}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"西安","airline":"西藏航空","flightNo":"TV9774","date":"2026-06-23","price":230,"returns":[{"airline":"西藏航空","flightNo":"TV9775","date":"2026-06-24","price":280}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"长沙","airline":"西藏航空","flightNo":"A67250","date":"2026-06-20","price":250,"returns":[{"airline":"西藏航空","flightNo":"A67251","date":"2026-06-21","price":290}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"大连","airline":"春秋航空","flightNo":"9C6595","date":"2026-06-25","price":270,"returns":[{"airline":"春秋航空","flightNo":"9C6596","date":"2026-06-26","price":310}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"上海","airline":"东方航空","flightNo":"MU5534","date":"2026-06-23","price":279,"returns":[{"airline":"东方航空","flightNo":"MU5535","date":"2026-06-24","price":320}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"重庆","airline":"北部湾航空","flightNo":"GX8803","date":"2026-06-24","price":295,"returns":[{"airline":"北部湾航空","flightNo":"GX8804","date":"2026-06-25","price":340}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"广州","airline":"海南航空","flightNo":"HU7206","date":"2026-06-27","price":360,"returns":[{"airline":"海南航空","flightNo":"HU7207","date":"2026-06-28","price":400}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"成都","airline":"中国国航","flightNo":"CA2792","date":"2026-06-19","price":380,"returns":[{"airline":"中国国航","flightNo":"CA2793","date":"2026-06-20","price":430}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"厦门","airline":"山东航空","flightNo":"SC8415","date":"2026-07-10","price":450,"returns":[{"airline":"山东航空","flightNo":"SC8416","date":"2026-07-11","price":480}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"海口","airline":"首都航空","flightNo":"JD5596","date":"2026-06-25","price":461,"returns":[{"airline":"首都航空","flightNo":"JD5597","date":"2026-06-26","price":500}],"platforms":{"qunar":"","ctrip":"","fliggy":""}}],"international":[{"destination":"首尔(仁川)","airline":"山东航空","flightNo":"SC4097","date":"2026-06-22","price":450,"countryName":"韩国","returns":[{"airline":"山东航空","flightNo":"SC4098","date":"2026-06-23","price":480}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"大阪","airline":"春秋航空","flightNo":"9C8509","date":"2026-06-25","price":460,"countryName":"日本","returns":[{"airline":"春秋航空","flightNo":"9C8510","date":"2026-06-26","price":500}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"曼谷","airline":"春秋航空","flightNo":"9C8623","date":"2026-06-26","price":470,"countryName":"泰国","returns":[{"airline":"春秋航空","flightNo":"9C8624","date":"2026-06-27","price":500}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"济州岛","airline":"春秋航空","flightNo":"9C8281","date":"2026-06-22","price":400,"countryName":"韩国","returns":[{"airline":"春秋航空","flightNo":"9C8282","date":"2026-06-23","price":450}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"香港","airline":"中国国航","flightNo":"CA105","date":"2026-06-27","price":490,"countryName":"中国香港","returns":[{"airline":"中国国航","flightNo":"CA106","date":"2026-06-28","price":500}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"澳门","airline":"澳门航空","flightNo":"NX011","date":"2026-06-24","price":480,"countryName":"中国澳门","returns":[{"airline":"澳门航空","flightNo":"NX012","date":"2026-06-25","price":500}],"platforms":{"qunar":"","ctrip":"","fliggy":""}},{"destination":"台北(桃园)","airline":"山东航空","flightNo":"SC4093","date":"2026-06-26","price":490,"countryName":"中国台湾","returns":[{"airline":"山东航空","flightNo":"SC4094","date":"2026-06-27","price":500}],"platforms":{"qunar":"","ctrip":"","fliggy":""}}]}
+  </script>
+
+  <!-- 返程弹窗 -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <div class="modal-header">
+        <div>
+          <div class="modal-route">&#9992; <span id="modalDest"></span></div>
+          <div class="modal-sub" id="modalSub"></div>
+        </div>
+        <button class="modal-close" id="modalClose">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h3 class="return-title">&#x21C5; 返程（未来3天）</h3>
+        <div id="modalReturns" class="return-list">
+          <div class="loading">加载中...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

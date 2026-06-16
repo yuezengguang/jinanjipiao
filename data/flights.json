@@ -1,0 +1,1412 @@
+{
+  "date": "2026-06-16",
+  "updatedAt": "2026-06-16 16:53",
+  "domestic": [
+    {
+      "destination": "沈阳",
+      "airline": "瑞丽航空",
+      "flightNo": "DR6576",
+      "date": "2026-06-20",
+      "price": 200,
+      "depTime": "2026-06-20 22:50",
+      "arrTime": "2026-06-21 00:35",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%B2%88%E9%98%B3&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%B2%88%E9%98%B3&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=沈阳&depDate=20260620",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=沈阳&depDate=2026-06-20"
+      },
+      "returns": [
+        {
+          "airline": "瑞丽航空",
+          "flightNo": "DR6507",
+          "date": "2026-06-21",
+          "price": 200
+        },
+        {
+          "airline": "瑞丽航空",
+          "flightNo": "DR6514",
+          "date": "2026-06-22",
+          "price": 200
+        },
+        {
+          "airline": "瑞丽航空",
+          "flightNo": "DR6521",
+          "date": "2026-06-23",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "武汉",
+      "airline": "山东航空",
+      "flightNo": "SC8871",
+      "date": "2026-06-20",
+      "price": 230,
+      "depTime": "2026-06-20 06:45",
+      "arrTime": "2026-06-20 08:30",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%AD%A6%E6%B1%89&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%AD%A6%E6%B1%89&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=武汉&depDate=20260620",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=武汉&depDate=2026-06-20"
+      },
+      "returns": [
+        {
+          "airline": "山东航空",
+          "flightNo": "SC8807",
+          "date": "2026-06-21",
+          "price": 200
+        },
+        {
+          "airline": "山东航空",
+          "flightNo": "SC8814",
+          "date": "2026-06-22",
+          "price": 200
+        },
+        {
+          "airline": "山东航空",
+          "flightNo": "SC8821",
+          "date": "2026-06-23",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "西安",
+      "airline": "西藏航空",
+      "flightNo": "TV9774",
+      "date": "2026-06-25",
+      "price": 230,
+      "depTime": "2026-06-25 12:30",
+      "arrTime": "2026-06-25 14:20",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E8%A5%BF%E5%AE%89&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E8%A5%BF%E5%AE%89&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=西安&depDate=20260625",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=西安&depDate=2026-06-25"
+      },
+      "returns": [
+        {
+          "airline": "西藏航空",
+          "flightNo": "TV9707",
+          "date": "2026-06-26",
+          "price": 200
+        },
+        {
+          "airline": "西藏航空",
+          "flightNo": "TV9714",
+          "date": "2026-06-27",
+          "price": 200
+        },
+        {
+          "airline": "西藏航空",
+          "flightNo": "TV9721",
+          "date": "2026-06-28",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "长沙",
+      "airline": "西藏航空",
+      "flightNo": "A67250",
+      "date": "2026-06-20",
+      "price": 250,
+      "depTime": "2026-06-20 10:35",
+      "arrTime": "2026-06-20 12:40",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E9%95%BF%E6%B2%99&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E9%95%BF%E6%B2%99&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=长沙&depDate=20260620",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=长沙&depDate=2026-06-20"
+      },
+      "returns": [
+        {
+          "airline": "西藏航空",
+          "flightNo": "A67207",
+          "date": "2026-06-21",
+          "price": 200
+        },
+        {
+          "airline": "西藏航空",
+          "flightNo": "A67214",
+          "date": "2026-06-22",
+          "price": 200
+        },
+        {
+          "airline": "西藏航空",
+          "flightNo": "A67221",
+          "date": "2026-06-23",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "大连",
+      "airline": "春秋航空",
+      "flightNo": "9C6595",
+      "date": "2026-06-25",
+      "price": 268,
+      "depTime": "2026-06-25 10:15",
+      "arrTime": "2026-06-25 11:25",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%A4%A7%E8%BF%9E&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%A4%A7%E8%BF%9E&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=大连&depDate=20260625",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=大连&depDate=2026-06-25"
+      },
+      "returns": [
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C6507",
+          "date": "2026-06-26",
+          "price": 200
+        },
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C6514",
+          "date": "2026-06-27",
+          "price": 200
+        },
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C6521",
+          "date": "2026-06-28",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "上海",
+      "airline": "东方航空",
+      "flightNo": "MU5534",
+      "date": "2026-06-23",
+      "price": 279,
+      "depTime": "2026-06-23 07:15",
+      "arrTime": "2026-06-23 08:50",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E4%B8%8A%E6%B5%B7&goDate=2026-06-23&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E4%B8%8A%E6%B5%B7&goDate=2026-06-23&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=上海&depDate=20260623",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=上海&depDate=2026-06-23"
+      },
+      "returns": [
+        {
+          "airline": "东方航空",
+          "flightNo": "MU5507",
+          "date": "2026-06-24",
+          "price": 200
+        },
+        {
+          "airline": "东方航空",
+          "flightNo": "MU5514",
+          "date": "2026-06-25",
+          "price": 200
+        },
+        {
+          "airline": "东方航空",
+          "flightNo": "MU5521",
+          "date": "2026-06-26",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "张家界",
+      "airline": "北部湾航空",
+      "flightNo": "GX8876",
+      "date": "2026-06-25",
+      "price": 285,
+      "depTime": "2026-06-25 20:20",
+      "arrTime": "2026-06-25 22:25",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%BC%A0%E5%AE%B6%E7%95%8C&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%BC%A0%E5%AE%B6%E7%95%8C&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=张家界&depDate=20260625",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=张家界&depDate=2026-06-25"
+      },
+      "returns": [
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX8807",
+          "date": "2026-06-26",
+          "price": 200
+        },
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX8814",
+          "date": "2026-06-27",
+          "price": 200
+        },
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX8821",
+          "date": "2026-06-28",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "重庆",
+      "airline": "北部湾航空",
+      "flightNo": "GX8803",
+      "date": "2026-06-20",
+      "price": 295,
+      "depTime": "2026-06-20 07:35",
+      "arrTime": "2026-06-20 11:45",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E9%87%8D%E5%BA%86&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E9%87%8D%E5%BA%86&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=重庆&depDate=20260620",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=重庆&depDate=2026-06-20"
+      },
+      "returns": [
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX8807",
+          "date": "2026-06-21",
+          "price": 200
+        },
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX8814",
+          "date": "2026-06-22",
+          "price": 200
+        },
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX8821",
+          "date": "2026-06-23",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "南昌",
+      "airline": "山东航空",
+      "flightNo": "SC1199",
+      "date": "2026-06-30",
+      "price": 299,
+      "depTime": "2026-06-30 07:45",
+      "arrTime": "2026-06-30 09:35",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%8D%97%E6%98%8C&goDate=2026-06-30&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%8D%97%E6%98%8C&goDate=2026-06-30&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=南昌&depDate=20260630",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=南昌&depDate=2026-06-30"
+      },
+      "returns": [
+        {
+          "airline": "山东航空",
+          "flightNo": "SC1107",
+          "date": "2026-07-01",
+          "price": 200
+        },
+        {
+          "airline": "山东航空",
+          "flightNo": "SC1114",
+          "date": "2026-07-02",
+          "price": 200
+        },
+        {
+          "airline": "山东航空",
+          "flightNo": "SC1121",
+          "date": "2026-07-03",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "呼和浩特",
+      "airline": "华夏航空",
+      "flightNo": "G56423L",
+      "date": "2026-06-22",
+      "price": 310,
+      "depTime": "2026-06-22 21:20",
+      "arrTime": "2026-06-23 12:15",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9&goDate=2026-06-22&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9&goDate=2026-06-22&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=呼和浩特&depDate=20260622",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=呼和浩特&depDate=2026-06-22"
+      },
+      "returns": [
+        {
+          "airline": "华夏航空",
+          "flightNo": "G564207",
+          "date": "2026-06-23",
+          "price": 200
+        },
+        {
+          "airline": "华夏航空",
+          "flightNo": "G564214",
+          "date": "2026-06-24",
+          "price": 200
+        },
+        {
+          "airline": "华夏航空",
+          "flightNo": "G564221",
+          "date": "2026-06-25",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "福州",
+      "airline": "成都航空",
+      "flightNo": "EU1914",
+      "date": "2026-06-20",
+      "price": 320,
+      "depTime": "2026-06-20 21:10",
+      "arrTime": "2026-06-20 23:25",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E7%A6%8F%E5%B7%9E&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E7%A6%8F%E5%B7%9E&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=福州&depDate=20260620",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=福州&depDate=2026-06-20"
+      },
+      "returns": [
+        {
+          "airline": "成都航空",
+          "flightNo": "EU1907",
+          "date": "2026-06-21",
+          "price": 200
+        },
+        {
+          "airline": "成都航空",
+          "flightNo": "EU1914",
+          "date": "2026-06-22",
+          "price": 200
+        },
+        {
+          "airline": "成都航空",
+          "flightNo": "EU1921",
+          "date": "2026-06-23",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "成都",
+      "airline": "中国国航",
+      "flightNo": "CA2792",
+      "date": "2026-06-20",
+      "price": 350,
+      "depTime": "2026-06-20 18:45",
+      "arrTime": "2026-06-20 21:30",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%88%90%E9%83%BD&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%88%90%E9%83%BD&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=成都&depDate=20260620",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=成都&depDate=2026-06-20"
+      },
+      "returns": [
+        {
+          "airline": "中国国航",
+          "flightNo": "CA2707",
+          "date": "2026-06-21",
+          "price": 200
+        },
+        {
+          "airline": "中国国航",
+          "flightNo": "CA2714",
+          "date": "2026-06-22",
+          "price": 200
+        },
+        {
+          "airline": "中国国航",
+          "flightNo": "CA2721",
+          "date": "2026-06-23",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "深圳",
+      "airline": "东海航空",
+      "flightNo": "DZ6274",
+      "date": "2026-06-27",
+      "price": 350,
+      "depTime": "2026-06-27 18:40",
+      "arrTime": "2026-06-28 00:05",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%B7%B1%E5%9C%B3&goDate=2026-06-27&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%B7%B1%E5%9C%B3&goDate=2026-06-27&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=深圳&depDate=20260627",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=深圳&depDate=2026-06-27"
+      },
+      "returns": [
+        {
+          "airline": "东海航空",
+          "flightNo": "DZ6207",
+          "date": "2026-06-28",
+          "price": 200
+        },
+        {
+          "airline": "东海航空",
+          "flightNo": "DZ6214",
+          "date": "2026-06-29",
+          "price": 200
+        },
+        {
+          "airline": "东海航空",
+          "flightNo": "DZ6221",
+          "date": "2026-06-30",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "广州",
+      "airline": "海南航空",
+      "flightNo": "HU7206",
+      "date": "2026-06-27",
+      "price": 360,
+      "depTime": "2026-06-27 22:05",
+      "arrTime": "2026-06-28 00:50",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%B9%BF%E5%B7%9E&goDate=2026-06-27&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%B9%BF%E5%B7%9E&goDate=2026-06-27&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=广州&depDate=20260627",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=广州&depDate=2026-06-27"
+      },
+      "returns": [
+        {
+          "airline": "海南航空",
+          "flightNo": "HU7207",
+          "date": "2026-06-28",
+          "price": 200
+        },
+        {
+          "airline": "海南航空",
+          "flightNo": "HU7214",
+          "date": "2026-06-29",
+          "price": 200
+        },
+        {
+          "airline": "海南航空",
+          "flightNo": "HU7221",
+          "date": "2026-06-30",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "揭阳",
+      "airline": "北部湾航空",
+      "flightNo": "GX8905",
+      "date": "2026-06-25",
+      "price": 365,
+      "depTime": "2026-06-25 07:15",
+      "arrTime": "2026-06-25 11:35",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%8F%AD%E9%98%B3&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%8F%AD%E9%98%B3&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=揭阳&depDate=20260625",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=揭阳&depDate=2026-06-25"
+      },
+      "returns": [
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX8907",
+          "date": "2026-06-26",
+          "price": 200
+        },
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX8914",
+          "date": "2026-06-27",
+          "price": 200
+        },
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX8921",
+          "date": "2026-06-28",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "长春",
+      "airline": "青岛航空",
+      "flightNo": "QW6164",
+      "date": "2026-06-19",
+      "price": 375,
+      "depTime": "2026-06-19 17:55",
+      "arrTime": "2026-06-19 20:05",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E9%95%BF%E6%98%A5&goDate=2026-06-19&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E9%95%BF%E6%98%A5&goDate=2026-06-19&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=长春&depDate=20260619",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=长春&depDate=2026-06-19"
+      },
+      "returns": [
+        {
+          "airline": "青岛航空",
+          "flightNo": "QW6107",
+          "date": "2026-06-20",
+          "price": 200
+        },
+        {
+          "airline": "青岛航空",
+          "flightNo": "QW6114",
+          "date": "2026-06-21",
+          "price": 200
+        },
+        {
+          "airline": "青岛航空",
+          "flightNo": "QW6121",
+          "date": "2026-06-22",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "绵阳",
+      "airline": "金鹏航空",
+      "flightNo": "Y87541",
+      "date": "2026-06-28",
+      "price": 379,
+      "depTime": "2026-06-28 16:55",
+      "arrTime": "2026-06-28 19:10",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E7%BB%B5%E9%98%B3&goDate=2026-06-28&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E7%BB%B5%E9%98%B3&goDate=2026-06-28&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=绵阳&depDate=20260628",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=绵阳&depDate=2026-06-28"
+      },
+      "returns": [
+        {
+          "airline": "金鹏航空",
+          "flightNo": "Y87507",
+          "date": "2026-06-29",
+          "price": 200
+        },
+        {
+          "airline": "金鹏航空",
+          "flightNo": "Y87514",
+          "date": "2026-06-30",
+          "price": 200
+        },
+        {
+          "airline": "金鹏航空",
+          "flightNo": "Y87521",
+          "date": "2026-07-01",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "赣州",
+      "airline": "祥鹏航空",
+      "flightNo": "8L9562",
+      "date": "2026-06-29",
+      "price": 380,
+      "depTime": "2026-06-29 13:00",
+      "arrTime": "2026-06-29 15:20",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E8%B5%A3%E5%B7%9E&goDate=2026-06-29&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E8%B5%A3%E5%B7%9E&goDate=2026-06-29&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=赣州&depDate=20260629",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=赣州&depDate=2026-06-29"
+      },
+      "returns": [
+        {
+          "airline": "祥鹏航空",
+          "flightNo": "8L9507",
+          "date": "2026-06-30",
+          "price": 200
+        },
+        {
+          "airline": "祥鹏航空",
+          "flightNo": "8L9514",
+          "date": "2026-07-01",
+          "price": 200
+        },
+        {
+          "airline": "祥鹏航空",
+          "flightNo": "8L9521",
+          "date": "2026-07-02",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "南宁",
+      "airline": "北部湾航空",
+      "flightNo": "GX8919",
+      "date": "2026-06-28",
+      "price": 385,
+      "depTime": "2026-06-28 19:40",
+      "arrTime": "2026-06-29 00:30",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%8D%97%E5%AE%81&goDate=2026-06-28&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%8D%97%E5%AE%81&goDate=2026-06-28&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=南宁&depDate=20260628",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=南宁&depDate=2026-06-28"
+      },
+      "returns": [
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX8907",
+          "date": "2026-06-29",
+          "price": 200
+        },
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX8914",
+          "date": "2026-06-30",
+          "price": 200
+        },
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX8921",
+          "date": "2026-07-01",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "桂林",
+      "airline": "桂林航空",
+      "flightNo": "GT1142",
+      "date": "2026-06-25",
+      "price": 390,
+      "depTime": "2026-06-25 21:30",
+      "arrTime": "2026-06-26 00:20",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%A1%82%E6%9E%97&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%A1%82%E6%9E%97&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=桂林&depDate=20260625",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=桂林&depDate=2026-06-25"
+      },
+      "returns": [
+        {
+          "airline": "桂林航空",
+          "flightNo": "GT1107",
+          "date": "2026-06-26",
+          "price": 200
+        },
+        {
+          "airline": "桂林航空",
+          "flightNo": "GT1114",
+          "date": "2026-06-27",
+          "price": 200
+        },
+        {
+          "airline": "桂林航空",
+          "flightNo": "GT1121",
+          "date": "2026-06-28",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "兰州",
+      "airline": "春秋航空",
+      "flightNo": "9C7172",
+      "date": "2026-06-25",
+      "price": 398,
+      "depTime": "2026-06-25 10:30",
+      "arrTime": "2026-06-25 13:00",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%85%B0%E5%B7%9E&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%85%B0%E5%B7%9E&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=兰州&depDate=20260625",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=兰州&depDate=2026-06-25"
+      },
+      "returns": [
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C7107",
+          "date": "2026-06-26",
+          "price": 200
+        },
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C7114",
+          "date": "2026-06-27",
+          "price": 200
+        },
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C7121",
+          "date": "2026-06-28",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "哈尔滨",
+      "airline": "南方航空",
+      "flightNo": "CZ6278",
+      "date": "2026-06-20",
+      "price": 400,
+      "depTime": "2026-06-20 22:25",
+      "arrTime": "2026-06-21 00:35",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%93%88%E5%B0%94%E6%BB%A8&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%93%88%E5%B0%94%E6%BB%A8&goDate=2026-06-20&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=哈尔滨&depDate=20260620",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=哈尔滨&depDate=2026-06-20"
+      },
+      "returns": [
+        {
+          "airline": "南方航空",
+          "flightNo": "CZ6207",
+          "date": "2026-06-21",
+          "price": 200
+        },
+        {
+          "airline": "南方航空",
+          "flightNo": "CZ6214",
+          "date": "2026-06-22",
+          "price": 200
+        },
+        {
+          "airline": "南方航空",
+          "flightNo": "CZ6221",
+          "date": "2026-06-23",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "珠海",
+      "airline": "东海航空",
+      "flightNo": "DZ6318",
+      "date": "2026-06-26",
+      "price": 400,
+      "depTime": "2026-06-26 20:20",
+      "arrTime": "2026-06-26 23:55",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E7%8F%A0%E6%B5%B7&goDate=2026-06-26&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E7%8F%A0%E6%B5%B7&goDate=2026-06-26&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=珠海&depDate=20260626",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=珠海&depDate=2026-06-26"
+      },
+      "returns": [
+        {
+          "airline": "东海航空",
+          "flightNo": "DZ6307",
+          "date": "2026-06-27",
+          "price": 200
+        },
+        {
+          "airline": "东海航空",
+          "flightNo": "DZ6314",
+          "date": "2026-06-28",
+          "price": 200
+        },
+        {
+          "airline": "东海航空",
+          "flightNo": "DZ6321",
+          "date": "2026-06-29",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "乌海",
+      "airline": "华夏航空",
+      "flightNo": "G558596",
+      "date": "2026-06-22",
+      "price": 410,
+      "depTime": "2026-06-22 21:20",
+      "arrTime": "2026-06-23 13:00",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E4%B9%8C%E6%B5%B7&goDate=2026-06-22&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E4%B9%8C%E6%B5%B7&goDate=2026-06-22&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=乌海&depDate=20260622",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=乌海&depDate=2026-06-22"
+      },
+      "returns": [
+        {
+          "airline": "华夏航空",
+          "flightNo": "G558507",
+          "date": "2026-06-23",
+          "price": 200
+        },
+        {
+          "airline": "华夏航空",
+          "flightNo": "G558514",
+          "date": "2026-06-24",
+          "price": 200
+        },
+        {
+          "airline": "华夏航空",
+          "flightNo": "G558521",
+          "date": "2026-06-25",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "银川",
+      "airline": "东方航空",
+      "flightNo": "MU6359",
+      "date": "2026-06-27",
+      "price": 410,
+      "depTime": "2026-06-27 19:00",
+      "arrTime": "2026-06-27 20:50",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E9%93%B6%E5%B7%9D&goDate=2026-06-27&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E9%93%B6%E5%B7%9D&goDate=2026-06-27&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=银川&depDate=20260627",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=银川&depDate=2026-06-27"
+      },
+      "returns": [
+        {
+          "airline": "东方航空",
+          "flightNo": "MU6307",
+          "date": "2026-06-28",
+          "price": 200
+        },
+        {
+          "airline": "东方航空",
+          "flightNo": "MU6314",
+          "date": "2026-06-29",
+          "price": 200
+        },
+        {
+          "airline": "东方航空",
+          "flightNo": "MU6321",
+          "date": "2026-06-30",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "昆明",
+      "airline": "祥鹏航空",
+      "flightNo": "8L9562",
+      "date": "2026-06-26",
+      "price": 412,
+      "depTime": "2026-06-26 13:05",
+      "arrTime": "2026-06-26 18:40",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%98%86%E6%98%8E&goDate=2026-06-26&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%98%86%E6%98%8E&goDate=2026-06-26&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=昆明&depDate=20260626",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=昆明&depDate=2026-06-26"
+      },
+      "returns": [
+        {
+          "airline": "祥鹏航空",
+          "flightNo": "8L9507",
+          "date": "2026-06-27",
+          "price": 200
+        },
+        {
+          "airline": "祥鹏航空",
+          "flightNo": "8L9514",
+          "date": "2026-06-28",
+          "price": 200
+        },
+        {
+          "airline": "祥鹏航空",
+          "flightNo": "8L9521",
+          "date": "2026-06-29",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "贵阳",
+      "airline": "山东航空",
+      "flightNo": "SC8041",
+      "date": "2026-06-21",
+      "price": 420,
+      "depTime": "2026-06-21 19:25",
+      "arrTime": "2026-06-21 21:55",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E8%B4%B5%E9%98%B3&goDate=2026-06-21&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E8%B4%B5%E9%98%B3&goDate=2026-06-21&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=贵阳&depDate=20260621",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=贵阳&depDate=2026-06-21"
+      },
+      "returns": [
+        {
+          "airline": "山东航空",
+          "flightNo": "SC8007",
+          "date": "2026-06-22",
+          "price": 200
+        },
+        {
+          "airline": "山东航空",
+          "flightNo": "SC8014",
+          "date": "2026-06-23",
+          "price": 200
+        },
+        {
+          "airline": "山东航空",
+          "flightNo": "SC8021",
+          "date": "2026-06-24",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "西宁",
+      "airline": "北部湾航空",
+      "flightNo": "GX7871",
+      "date": "2026-06-24",
+      "price": 435,
+      "depTime": "2026-06-24 18:55",
+      "arrTime": "2026-06-24 21:35",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E8%A5%BF%E5%AE%81&goDate=2026-06-24&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E8%A5%BF%E5%AE%81&goDate=2026-06-24&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=西宁&depDate=20260624",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=西宁&depDate=2026-06-24"
+      },
+      "returns": [
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX7807",
+          "date": "2026-06-25",
+          "price": 200
+        },
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX7814",
+          "date": "2026-06-26",
+          "price": 200
+        },
+        {
+          "airline": "北部湾航空",
+          "flightNo": "GX7821",
+          "date": "2026-06-27",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "厦门",
+      "airline": "山东航空",
+      "flightNo": "SC8415",
+      "date": "2026-07-08",
+      "price": 450,
+      "depTime": "2026-07-08 21:05",
+      "arrTime": "2026-07-08 23:35",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%8E%A6%E9%97%A8&goDate=2026-07-08&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E5%8E%A6%E9%97%A8&goDate=2026-07-08&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=厦门&depDate=20260708",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=厦门&depDate=2026-07-08"
+      },
+      "returns": [
+        {
+          "airline": "山东航空",
+          "flightNo": "SC8407",
+          "date": "2026-07-09",
+          "price": 200
+        },
+        {
+          "airline": "山东航空",
+          "flightNo": "SC8414",
+          "date": "2026-07-10",
+          "price": 200
+        },
+        {
+          "airline": "山东航空",
+          "flightNo": "SC8421",
+          "date": "2026-07-11",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "海口",
+      "airline": "首都航空",
+      "flightNo": "JD5596",
+      "date": "2026-06-25",
+      "price": 461,
+      "depTime": "2026-06-25 21:35",
+      "arrTime": "2026-06-26 01:10",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%B5%B7%E5%8F%A3&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E6%B5%B7%E5%8F%A3&goDate=2026-06-25&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=海口&depDate=20260625",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=海口&depDate=2026-06-25"
+      },
+      "returns": [
+        {
+          "airline": "首都航空",
+          "flightNo": "JD5507",
+          "date": "2026-06-26",
+          "price": 200
+        },
+        {
+          "airline": "首都航空",
+          "flightNo": "JD5514",
+          "date": "2026-06-27",
+          "price": 200
+        },
+        {
+          "airline": "首都航空",
+          "flightNo": "JD5521",
+          "date": "2026-06-28",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "西双版纳",
+      "airline": "华夏航空",
+      "flightNo": "G58503K",
+      "date": "2026-06-23",
+      "price": 500,
+      "depTime": "2026-06-23 23:30",
+      "arrTime": "2026-06-24 10:25",
+      "countryName": "中国",
+      "url": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E8%A5%BF%E5%8F%8C%E7%89%88%E7%BA%B3&goDate=2026-06-23&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+      "platforms": {
+        "qunar": "https://m.flight.qunar.com/ncs/page/flightlist?depCity=%E6%B5%8E%E5%8D%97&arrCity=%E8%A5%BF%E5%8F%8C%E7%89%88%E7%BA%B3&goDate=2026-06-23&from=touch_index_search&child=0&baby=0&cabinType=0&depAirport=&bizSource=SUPER_LOW",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=西双版纳&depDate=20260623",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=西双版纳&depDate=2026-06-23"
+      },
+      "returns": [
+        {
+          "airline": "华夏航空",
+          "flightNo": "G585007",
+          "date": "2026-06-24",
+          "price": 200
+        },
+        {
+          "airline": "华夏航空",
+          "flightNo": "G585014",
+          "date": "2026-06-25",
+          "price": 200
+        },
+        {
+          "airline": "华夏航空",
+          "flightNo": "G585021",
+          "date": "2026-06-26",
+          "price": 200
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "destination": "首尔(仁川)",
+      "airline": "山东航空",
+      "flightNo": "SC4097",
+      "date": "2026-06-19",
+      "price": 450,
+      "depTime": "",
+      "arrTime": "",
+      "countryName": "韩国",
+      "url": "",
+      "platforms": {
+        "qunar": "",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=首尔(仁川)&depDate=20260619",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=首尔(仁川)&depDate=2026-06-19"
+      },
+      "returns": [
+        {
+          "airline": "山东航空",
+          "flightNo": "SC4007",
+          "date": "2026-06-20",
+          "price": 200
+        },
+        {
+          "airline": "山东航空",
+          "flightNo": "SC4014",
+          "date": "2026-06-21",
+          "price": 200
+        },
+        {
+          "airline": "山东航空",
+          "flightNo": "SC4021",
+          "date": "2026-06-22",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "大阪",
+      "airline": "春秋航空",
+      "flightNo": "9C8509",
+      "date": "2026-06-21",
+      "price": 460,
+      "depTime": "",
+      "arrTime": "",
+      "countryName": "日本",
+      "url": "",
+      "platforms": {
+        "qunar": "",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=大阪&depDate=20260621",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=大阪&depDate=2026-06-21"
+      },
+      "returns": [
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C8507",
+          "date": "2026-06-22",
+          "price": 200
+        },
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C8514",
+          "date": "2026-06-23",
+          "price": 200
+        },
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C8521",
+          "date": "2026-06-24",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "曼谷",
+      "airline": "春秋航空",
+      "flightNo": "9C8623",
+      "date": "2026-06-22",
+      "price": 470,
+      "depTime": "",
+      "arrTime": "",
+      "countryName": "泰国",
+      "url": "",
+      "platforms": {
+        "qunar": "",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=曼谷&depDate=20260622",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=曼谷&depDate=2026-06-22"
+      },
+      "returns": [
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C8607",
+          "date": "2026-06-23",
+          "price": 200
+        },
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C8614",
+          "date": "2026-06-24",
+          "price": 200
+        },
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C8621",
+          "date": "2026-06-25",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "济州岛",
+      "airline": "春秋航空",
+      "flightNo": "9C8281",
+      "date": "2026-06-18",
+      "price": 400,
+      "depTime": "",
+      "arrTime": "",
+      "countryName": "韩国",
+      "url": "",
+      "platforms": {
+        "qunar": "",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=济州岛&depDate=20260618",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=济州岛&depDate=2026-06-18"
+      },
+      "returns": [
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C8207",
+          "date": "2026-06-19",
+          "price": 200
+        },
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C8214",
+          "date": "2026-06-20",
+          "price": 200
+        },
+        {
+          "airline": "春秋航空",
+          "flightNo": "9C8221",
+          "date": "2026-06-21",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "香港",
+      "airline": "中国国航",
+      "flightNo": "CA105",
+      "date": "2026-06-23",
+      "price": 490,
+      "depTime": "",
+      "arrTime": "",
+      "countryName": "中国香港",
+      "url": "",
+      "platforms": {
+        "qunar": "",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=香港&depDate=20260623",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=香港&depDate=2026-06-23"
+      },
+      "returns": [
+        {
+          "airline": "中国国航",
+          "flightNo": "CA107",
+          "date": "2026-06-24",
+          "price": 200
+        },
+        {
+          "airline": "中国国航",
+          "flightNo": "CA114",
+          "date": "2026-06-25",
+          "price": 200
+        },
+        {
+          "airline": "中国国航",
+          "flightNo": "CA121",
+          "date": "2026-06-26",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "澳门",
+      "airline": "澳门航空",
+      "flightNo": "NX011",
+      "date": "2026-06-20",
+      "price": 480,
+      "depTime": "",
+      "arrTime": "",
+      "countryName": "中国澳门",
+      "url": "",
+      "platforms": {
+        "qunar": "",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=澳门&depDate=20260620",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=澳门&depDate=2026-06-20"
+      },
+      "returns": [
+        {
+          "airline": "澳门航空",
+          "flightNo": "NX007",
+          "date": "2026-06-21",
+          "price": 200
+        },
+        {
+          "airline": "澳门航空",
+          "flightNo": "NX014",
+          "date": "2026-06-22",
+          "price": 200
+        },
+        {
+          "airline": "澳门航空",
+          "flightNo": "NX021",
+          "date": "2026-06-23",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "台北(桃园)",
+      "airline": "山东航空",
+      "flightNo": "SC4093",
+      "date": "2026-06-22",
+      "price": 490,
+      "depTime": "",
+      "arrTime": "",
+      "countryName": "中国台湾",
+      "url": "",
+      "platforms": {
+        "qunar": "",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=台北(桃园)&depDate=20260622",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=台北(桃园)&depDate=2026-06-22"
+      },
+      "returns": [
+        {
+          "airline": "山东航空",
+          "flightNo": "SC4007",
+          "date": "2026-06-23",
+          "price": 200
+        },
+        {
+          "airline": "山东航空",
+          "flightNo": "SC4014",
+          "date": "2026-06-24",
+          "price": 200
+        },
+        {
+          "airline": "山东航空",
+          "flightNo": "SC4021",
+          "date": "2026-06-25",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "destination": "首尔(仁川)",
+      "airline": "中国国航",
+      "flightNo": "CA139",
+      "date": "2026-06-21",
+      "price": 490,
+      "depTime": "",
+      "arrTime": "",
+      "countryName": "韩国",
+      "url": "",
+      "platforms": {
+        "qunar": "",
+        "ctrip": "https://flights.ctrip.com/online/search/domestic?depCityName=济南&arrCityName=首尔(仁川)&depDate=20260621",
+        "fliggy": "https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity=首尔(仁川)&depDate=2026-06-21"
+      },
+      "returns": [
+        {
+          "airline": "中国国航",
+          "flightNo": "CA107",
+          "date": "2026-06-22",
+          "price": 200
+        },
+        {
+          "airline": "中国国航",
+          "flightNo": "CA114",
+          "date": "2026-06-23",
+          "price": 200
+        },
+        {
+          "airline": "中国国航",
+          "flightNo": "CA121",
+          "date": "2026-06-24",
+          "price": 200
+        }
+      ]
+    }
+  ]
+}

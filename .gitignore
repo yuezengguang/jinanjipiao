@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.png
+screenshot_*
+debug_*
+qunar_data.json
