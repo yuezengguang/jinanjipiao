@@ -41,7 +41,6 @@ PREFIX_MAP = {
     "EU": "成都航空", "TV": "西藏航空", "9C": "春秋航空",
     "BK": "奥凯航空", "JD": "首都航空", "GT": "桂林航空",
     "KY": "昆明航空", "HO": "吉祥航空", "Y8": "金鹏航空",
-    "HU": "海南航空", "ZH": "深圳航空",
 }
 
 # 航司 → 携程/飞猪 参数名
@@ -115,7 +114,7 @@ def parse_flight(raw: dict) -> Optional[dict]:
     fliggy_url = _fliggy_url(destination, outbound_date) if outbound_date else ""
 
     # 生成返程模拟数据
-    returns = _gen_returns(destination, outbound_date, airline, flight_no) if outbound_date else []
+    returns = _gen_returns(destination, outbound_date, airline, flight_no, price) if outbound_date else []
 
     return {
         "destination": destination,
@@ -145,7 +144,7 @@ def _fliggy_url(dest: str, date_str: str) -> str:
     return f"https://www.fliggy.com/search/flight.htm?depCity=济南&arrCity={dest}&depDate={date_str}"
 
 
-def _gen_returns(dest: str, out_date: str, airline: str, flight_no: str) -> list:
+def _gen_returns(dest: str, out_date: str, airline: str, flight_no: str, out_price: int) -> list:
     """生成模拟返程数据（3天内返程，价格略高于去程）。"""
     try:
         base = date.fromisoformat(out_date)
@@ -156,12 +155,10 @@ def _gen_returns(dest: str, out_date: str, airline: str, flight_no: str) -> list
     seen = set()
     for offset in range(1, 5):
         rd = base + timedelta(days=offset)
-        # 返程价格 = 去程价 * 1.05~1.35 + 随机抖动
-        base_price = random.randint(50, 120)
-        price = min(base_price, PRICE_MAX)
-        r_price = max(200, price)
-        if r_price > PRICE_MAX:
-            continue
+        # 返程价格 ≈ 去程价 * 1.05~1.35 + 随机抖动
+        multiplier = random.uniform(1.05, 1.35)
+        jitter = random.randint(-20, 50)
+        r_price = max(200, min(int(out_price * multiplier + jitter), PRICE_MAX))
 
         # 换一个航班号（后两位变化）
         suffix = str(100 + offset * 7)[-2:]
@@ -185,7 +182,11 @@ def _gen_returns(dest: str, out_date: str, airline: str, flight_no: str) -> list
 def fetch_tab_flights(page, dep_city: str, tab: str, seen: set) -> list[dict]:
     """获取指定 Tab 的航班列表，去重。"""
     data = call_api(page, dep_city, tab)
+    if not data:
+        return []
     flights_data = data.get("data", {})
+    if not flights_data:
+        return []
     all_raw = flights_data.get("domList", []) + flights_data.get("interList", [])
 
     if not all_raw:
@@ -202,6 +203,90 @@ def fetch_tab_flights(page, dep_city: str, tab: str, seen: set) -> list[dict]:
         seen.add(code)
         results.append(flight)
     return results
+
+
+def fetch_real_returns(page, dest: str, out_date: str, max_price: int) -> list[dict]:
+    """通过 Qunar API 获取返程航班（目的地→济南）的真实价格。"""
+    try:
+        base = date.fromisoformat(out_date)
+    except (ValueError, TypeError):
+        return []
+
+    results = []
+    seen_dates = set()
+
+    for tab in DOMESTIC_TABS + INTERNATIONAL_TABS:
+        try:
+            data = page.evaluate(
+                """
+                (args) => {
+                    const [depCity, tabName] = args;
+                    return fetch('/lowFlightInterface/api/getAirLine', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            b: {
+                                locationAirCity: depCity,
+                                locationCity: depCity,
+                                timeout: 5000,
+                                simpleData: 'yes',
+                                t: 'f_urInfo_superLow_data',
+                                cat: 'touch_flight_home',
+                                tabName: tabName
+                            },
+                            c: {}
+                        })
+                    }).then(r => r.json());
+                }
+                """,
+                [dest, tab],
+            )
+        except Exception:
+            continue
+
+        if not data:
+            continue
+
+        flight_list = (
+            data.get("data", {}).get("domList", [])
+            + data.get("data", {}).get("interList", [])
+        )
+        for raw in flight_list:
+            try:
+                price = raw.get("price")
+                flight_no = raw.get("flightNo", "").strip()
+                arr_city = raw.get("arrCity", "")
+                flight_date = raw.get("date", "")
+
+                if not price or not isinstance(price, (int, float)):
+                    continue
+                if "济南" not in arr_city:
+                    continue
+
+                fd = date.fromisoformat(flight_date) if flight_date else None
+                if not fd or fd < base + timedelta(days=1) or fd > base + timedelta(days=7):
+                    continue
+
+                price_val = int(price)
+                if price_val > max_price:
+                    continue
+
+                d_str = flight_date
+                if d_str in seen_dates:
+                    continue
+                seen_dates.add(d_str)
+
+                airline = raw.get("airline", "") or PREFIX_MAP.get(flight_no[:2], "")
+                results.append({
+                    "airline": airline,
+                    "flightNo": flight_no,
+                    "date": d_str,
+                    "price": price_val,
+                })
+            except Exception:
+                continue
+
+    return sorted(results, key=lambda x: x["date"])[:3]
 
 
 def is_genuine_international(flight: dict) -> bool:
@@ -228,7 +313,7 @@ def _get_fallback_international() -> list[dict]:
     ]
     for dest, airline, flight_no, day_offset, price, country in routes:
         d = (today + timedelta(days=day_offset)).isoformat()
-        returns = _gen_returns(dest, d, airline, flight_no)
+        returns = _gen_returns(dest, d, airline, flight_no, price)
         ctrip = _ctrip_url(dest, d) if d else ""
         fliggy = _fliggy_url(dest, d) if d else ""
         data.append({
@@ -263,7 +348,6 @@ def run():
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
-            channel="chrome",
             args=["--disable-blink-features=AutomationControlled", "--no-sandbox"],
         )
         context = browser.new_context(
@@ -293,6 +377,27 @@ def run():
             flights = fetch_tab_flights(page, DEP_CITY, tab, seen_codes)
             all_flights.extend(flights)
             print(f"  [{idx+1}/{len(INTERNATIONAL_TABS)}] tab=\"{tab}\"  -> +{len(flights)}")
+            time.sleep(REQUEST_DELAY)
+
+        # 返程航班查询
+        print("\n── 获取返程真实价格 ──")
+        dest_groups: dict[str, list[dict]] = {}
+        for f in all_flights:
+            dest = f["destination"]
+            if dest not in dest_groups:
+                dest_groups[dest] = []
+            dest_groups[dest].append(f)
+
+        for idx, (dest, flights) in enumerate(dest_groups.items(), 1):
+            min_date = min(f["date"] for f in flights)
+            print(f"  [{idx}/{len(dest_groups)}] {dest} → 济南 ...", end=" ", flush=True)
+            real_returns = fetch_real_returns(page, dest, min_date, PRICE_MAX)
+            if real_returns:
+                print(f"[OK] {len(real_returns)} 个返程航班")
+                for f in flights:
+                    f["returns"] = real_returns
+            else:
+                print("无实时数据，保留模拟数据")
             time.sleep(REQUEST_DELAY)
 
         browser.close()

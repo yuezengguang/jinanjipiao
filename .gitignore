@@ -4,3 +4,4 @@ __pycache__/
 screenshot_*
 debug_*
 qunar_data.json
+repo_result.json
