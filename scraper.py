@@ -405,12 +405,21 @@ def run():
     domestic = [f for f in all_flights if not is_genuine_international(f)]
     international = [f for f in all_flights if is_genuine_international(f)]
 
+    # 过滤掉已过期的航班
+    today_str = today.isoformat()
+    domestic = [f for f in domestic if f["date"] >= today_str]
+    international = [f for f in international if f["date"] >= today_str]
+
     domestic.sort(key=lambda x: (x["price"], x["destination"]))
     international.sort(key=lambda x: (x["price"], x["destination"]))
 
     if not international:
         print("\n  ⚠ 实时国际航班均超过 ¥500，使用推荐数据补充")
         international = _get_fallback_international()
+        # 过滤 fallback 中已过期的返程数据
+        today_str = today.isoformat()
+        for f in international:
+            f["returns"] = [r for r in f.get("returns", []) if r["date"] >= today_str]
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     output = {
